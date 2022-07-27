@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "description": "eegggallery smart contracts",
     "author": "eegggallery devs",
+    "homepage": "https://github.com/eegggallery/contracts#readme",
     "license": "MIT",
     "scripts": {
         "build": "npx hardhat compile",
@@ -18,7 +19,6 @@
     "bugs": {
         "url": "https://github.com/eegggallery/contract/issues"
     },
-    "homepage": "https://github.com/eegggallery/contracts#readme",
     "devDependencies": {
         "@nomicfoundation/hardhat-network-helpers": "^1.0.3",
         "@nomicfoundation/hardhat-toolbox": "^1.0.2",
