@@ -1,0 +1,31 @@
+{
+    "name": "dev",
+    "version": "0.1.0",
+    "description": "eegggallery smart contracts",
+    "author": "eegggallery devs",
+    "license": "MIT",
+    "scripts": {
+        "build": "npx hardhat compile",
+        "deploy-local": "npx hardhat run scripts/deploy.ts --network localhost",
+        "gas": "REPORT_GAS=true npx hardhat test",
+        "node": "npx hardhat node",
+        "test": "npx hardhat test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eegggallery/contracts.git"
+    },
+    "bugs": {
+        "url": "https://github.com/eegggallery/contract/issues"
+    },
+    "homepage": "https://github.com/eegggallery/contracts#readme",
+    "devDependencies": {
+        "@nomicfoundation/hardhat-network-helpers": "^1.0.3",
+        "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+        "@openzeppelin/contracts": "^4.7.1",
+        "dotenv": "^16.0.1",
+        "hardhat": "^2.10.1",
+        "hardhat-gas-reporter": "^1.0.8",
+        "typescript": "^4.7.4"
+    }
+}
